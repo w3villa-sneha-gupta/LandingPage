@@ -571,6 +571,10 @@ textarea {
         width: auto;
         margin-left: 0;
         }
+
+        .author-text span {
+            font-size: 14px;
+        }
    }
 
 @media screen and (max-width:1020px){
@@ -647,12 +651,27 @@ textarea {
     text-align: center;
 }
 
+.author-image img {
+    height: 361px;
+    width: auto;
+    margin-left: -63px;
+    margin-top: 75px;
+}
+
 
 @media screen and (max-width:900px)
 {
     .wrapper{
         max-width: 600px;;
     }
+
+    .author-image img {
+        height: 357px;
+        width: auto;
+        margin-left: -63px;
+        margin-top: 79px;
+    }
+
 }
 
 @media screen and (max-width:800px){
